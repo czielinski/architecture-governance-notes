@@ -1,21 +1,25 @@
 # Guardrails vs gates
 
-**A gate** is a control point where work stops until someone approves. Gates are expensive: they consume senior attention per case, they queue, and they teach teams to package requests for approval rather than to think about the underlying question.
+**A gate** requires an explicit approval before work proceeds. It can provide a necessary control, but it also needs an accountable decision-maker, usable evidence and capacity to respond.
 
-**A guardrail** is a decision made in advance for a class of cases: a standard, a pattern, a documented default. Work that stays inside the guardrail proceeds without asking. Work that needs to leave it goes to the owner of the guardrail, deliberately and visibly.
+**A guardrail** defines an agreed boundary for a class of choices: a standard, a supported pattern or a spending limit. Teams may work within that boundary where the organisation has delegated authority to them. Exceptions follow a defined decision path.
 
 ## When a gate is the right tool
 
-Gates earn their cost in a narrow set of situations: decisions that are effectively irreversible, changes with a large blast radius, legally or contractually mandated approvals, and genuinely novel territory where no pattern exists yet. Everything else is a guardrail candidate.
+Consider an explicit review when a change affects several teams, introduces material expenditure or risk, changes service ownership, or requires a legal or contractual approval. Novel or difficult-to-reverse choices may also need closer examination.
 
-## Converting a gate into a guardrail
+A standard pattern can reduce the technical review needed without replacing a mandatory financial, security or service-acceptance decision.
 
-1. Collect the last ten or twenty cases that went through the gate.
-2. Cluster them. Usually 70 to 90 percent follow two or three patterns.
-3. Decide each pattern once, with the accountable owner, and write it down.
-4. Publish the guardrail together with a clearly marked exception path.
-5. Retire the gate for in-pattern cases. Keep it only for the exceptions.
+## When repeated reviews reveal a reusable pattern
 
-## One warning
+1. Review recent cases and identify the questions and evidence that recur.
+2. Check whether their requirements are sufficiently similar to share a supported approach.
+3. Agree the pattern, its scope and its assumptions with the responsible owners.
+4. Publish the permitted choices, required evidence, exception path and review triggers.
+5. Remove duplicate approvals only where the relevant authority permits it. Observe whether teams can use the pattern and whether significant exceptions remain visible.
 
-Do not guardrail what you do not understand yet. A premature standard freezes a bad answer. New territory deserves a few gated cases first; the guardrail comes out of the pattern they reveal.
+## Keep the boundary current
+
+A pattern should be revisited when support, requirements, costs or dependencies change. An exception may reveal a legitimate new need; it should also have an owner and a reason that other teams can understand.
+
+Use a [decision record](templates/decision-record.md) for a significant exception or a change to the shared standard.

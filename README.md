@@ -1,19 +1,18 @@
 # Architecture governance notes
 
-Working notes on architecture governance as decision enablement: how to reduce decision complexity instead of adding process.
+Practical material for making significant architecture decisions visible across teams and delivery partners.
 
-## Why this exists
+## Start here
+- [Decision-record template](templates/decision-record.md)
+- [Fictional worked example](example-decision.md)
 
-Most governance fails by adding steps. These notes collect patterns that do the opposite: guardrails instead of gates, decisions made once and documented, clear ownership instead of gray areas.
+## Notes
+- [Decision records](decision-records.md)
+- [Guardrails and gates](guardrails-vs-gates.md)
+- [Principles](principles.md)
 
-## Contents
+Use the template when a decision affects shared interfaces, service ownership, material expenditure or an agreed standard. Adapt the threshold to the organisation; routine local choices should remain with the responsible team.
 
-Short, self-contained notes. Start with `principles.md`, then `guardrails-vs-gates.md` and `decision-records.md`.
+The worked example is fictional. It illustrates how to record assumptions and review triggers, not a decision made by an employer.
 
-## Status and scope
-
-Personal working notes, evolving. Generic frameworks only, no employer material. Views are my own.
-
-## License
-
-Text: CC BY 4.0. Code samples: MIT.
+Personal notes and reusable templates. Text and templates are licensed under [CC BY 4.0](LICENSE).
